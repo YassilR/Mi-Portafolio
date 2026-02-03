@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>PORTAFOLIO | Yassil Ravelo Diaz</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">PORTAFOLIO</h1>
+        <nav>
+            <ul>    
+              <li><a href="#">Acerca de mi</a></li> 
+              <li><a href="#">Tecnologias</a></li>
+              <li><a href="#">Proyectos</a></li>
+              <li><a href="#">Contacto</a></li>               
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="acerca" class="hero">
+            <h2>Hola, Soy Yassil. Backend Developer.</h2>
+            <p>Soy una desarrolladora de software en formación con un enfoque claro en el Backend. Me apasiona entender qué sucede "detrás de escena": desde la lógica de algoritmos en C y Java, 
+            hasta la gestión de datos con Python y SQL. Construyo la arquitectura que hace que las aplicaciones funcionen de manera eficiente y escalable.</p>
+        </section>
+            <section id="tecnologias" class="tecnologias">
+                <h2>Tecnologias</h2>
+                    <div class="skill-grid">
+                        
+                        <div class="skill-card bg-java">
+                            <h3>JAVA</h3>
+                                <p>Logica y POO</p>                    
+                        </div>
+                        <div class="skill-card bg-python">
+                            <h3>Python</h3>
+                                <p>Backend</p>
+                        </div>
+                            <div class="skill-card bg-c">
+                                <h3>Lenguaje C</h3>
+                                    <p>Fundamentos y Memoria</p>
+                            </div>
+                            <div class="skill-card bg-sql">
+                                <h3>MySql / SQL</h3>
+                                    <p>Bases de Datos</p>
+                            </div>
+                        <div class="skill-card bg-github">
+                            <h3>Git & GitHub</h3>
+                                <p>Control de versiones</p>
+                        </div>
+                        <div class="skill-card bg-terminal">
+                            <h3>Terminal</h3>
+                                <p>Bash / Lineas de comandos</p>
+                        </div>
+                    </div>
+            </section>
+        <section id="proyectos" class="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="project-card">  
+                        <div class="card-image project-1"></div>
+                        <div class="card-content">
+                            <h3>Sistema de Gestion (Backend)</h3>
+                            <p>API RESTful desarrollada para gestionar inventarios. Conexion a base de Datos
+                                relacional y logica de negocio para control de stock.</p>
+                                <div class="tech-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">MySql</span>
+                                    <span class="tag">Git</span>
+                                </div>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn-primary">Ver Codigo (GitHub)</a>
+                                </div>
+                        </div>
+                </article>
+            </div>       
+        </section>
+            <section id="contancto" class="contacto-section">
+                <h2>Contactame</h2>
+                <div class="contact-container">
+                    <p>Para ideas de proyectos u ofertas de trabajo. Escribeme!</p>
+                    <form action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST" class="contact-form">
+
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Mensaje:</label>
+                            <textarea name="message" id="message" rows="5" required placeholder="Hola Yassil, me gustaria..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </section>
+    </main>
+     <footer>
+        <div class="footer-content">
+            <h3>Yassil Ravelo Diaz</h3>
+            <p>Backend developer en formacion y estudiante de Desarrollo de Apps</p>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/dashboard" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/yassil-ravelo-diaz-779965388/" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Contactame por Email</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">1991</span> | Construido desde cero con HTML y CSS</p>
+        </div>
+    </footer>
+    <button id="scrollTopBtn" title="Volver arriba">&#8679;</button>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
